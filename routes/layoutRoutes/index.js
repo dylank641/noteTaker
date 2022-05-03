@@ -1,20 +1,19 @@
-//NEEDS TO BE CHANGED
-const path = require('path');
-const router = require('express').Router();
+let path = require('path');
+let router = require('express').Router();
 
 
-// Route to serve home page
+// ROUTE TO GET TO HOME PAGE
 router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../../public/index.html'));
 });
 
 
-// Route to serve notes page
+// ROUTE TO GET TO NOTES PAGE
 router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../../public/notes.html'));
 });
 
-// Route to go to home page as default
+
 router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../../public/index.html'));
 });
