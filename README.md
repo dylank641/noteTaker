@@ -8,4 +8,14 @@ Download the file from GitHub and download node. It also requires UUID modules a
 
 ## Check it out
 
+Click here to check it out: https://tranquil-fjord-08020.herokuapp.com/
+
+![home](./assets/1.png)
 ![home](./assets/home.png)
+![home](./assets/2.png)
+![home](./assets/3.png)
+![home](./assets/4.png)
+![home](./assets/5.png)
+
+## Contribution 
+Made with ❤️ by James Killelea
